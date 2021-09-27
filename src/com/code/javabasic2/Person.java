@@ -1,4 +1,4 @@
-package com.code.javabacsic2;
+package com.code.javabasic2;
 
 public class Person {
     protected String myName;

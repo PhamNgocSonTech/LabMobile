@@ -12,7 +12,8 @@ public class Circle extends Shape {
     public void printInfo() {
         // TODO Auto-generated method stub
         super.printInfo();
-        System.out.println("Circle");
+        System.out.println("circle have name is "+name);
+        System.out.println(name+" have radius is "+radius);
     }
 
     @Override
@@ -25,6 +26,14 @@ public class Circle extends Shape {
     public double getPrimeter() {
         // TODO Auto-generated method stub
         return ((2 * radius) * 3.14);
+    }
+
+    public double getRadius() {
+        return radius;
+    }
+
+    public void setRadius(double radius) {
+        this.radius = radius;
     }
 
 }

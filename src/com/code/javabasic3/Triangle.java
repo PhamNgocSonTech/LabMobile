@@ -18,7 +18,11 @@ public class Triangle extends Shape {
     public void printInfo() {
         // TODO Auto-generated method stub
         super.printInfo();
-        System.out.println("Triangle");
+        System.out.println("Triangle have name is "+name);
+        System.out.println(name+" have side 1 is "+side1);
+        System.out.println(name+" have side 2 is "+side2);
+        System.out.println(name+" have side 3 is "+side3);
+
     }
     @Override
     public double getArea() {
@@ -30,6 +34,37 @@ public class Triangle extends Shape {
         // TODO Auto-generated method stub
         return side1 + side2 + side3;
     }
+
+
+    public double getSide1() {
+        return side1;
+    }
+
+
+    public void setSide1(double side1) {
+        this.side1 = side1;
+    }
+
+
+    public double getSide2() {
+        return side2;
+    }
+
+
+    public void setSide2(double side2) {
+        this.side2 = side2;
+    }
+
+
+    public double getSide3() {
+        return side3;
+    }
+
+
+    public void setSide3(double side3) {
+        this.side3 = side3;
+    }
+    
 
     
     

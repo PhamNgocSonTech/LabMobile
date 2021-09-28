@@ -17,7 +17,13 @@ public abstract class Shape {
     public abstract double getPrimeter();
 
     public void printInfo(){
-        System.out.println("Shape is ");
+        System.out.print("Shape is ");
+    }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
     }
     
 }

@@ -1,5 +1,7 @@
 package com.code.javabasic3;
 
+import java.util.Scanner;
+
 public class Circle extends Shape {
     protected double radius;
 
@@ -8,12 +10,24 @@ public class Circle extends Shape {
         this.radius = radius;
     }
 
+    public Circle() {
+
+    }
+
+    @Override
+    public void input() {
+        // TODO Auto-generated method stub
+        super.input();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Nhập bán kính: ");
+        radius = sc.nextDouble();
+    }
+
     @Override
     public void printInfo() {
         // TODO Auto-generated method stub
         super.printInfo();
-        System.out.println("circle have name is "+name);
-        System.out.println(name+" have radius is "+radius);
+        System.out.println("Bán kính của " + name + " có bán kính là " + radius);
     }
 
     @Override

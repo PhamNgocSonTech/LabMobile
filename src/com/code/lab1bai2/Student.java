@@ -1,4 +1,4 @@
-package com.code.javabasic2;
+package com.code.lab1bai2;
 
 public class Student extends Person{
     protected String myIdNum;

@@ -1,4 +1,4 @@
-package com.code.javabasic3;
+package com.code.lab1bai3;
 
 import java.util.Scanner;
 
@@ -19,11 +19,11 @@ public abstract class Shape {
 
     public void input(){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Tên Hình  ");
+        System.out.println("Tên Hình  " );
         name = sc.nextLine();
     }
     public void printInfo() {
-        System.out.print("Hình "+name);
+        System.out.println("Hình " + name);
     }
 
     public String getName() {

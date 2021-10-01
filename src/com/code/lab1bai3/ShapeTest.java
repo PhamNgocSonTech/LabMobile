@@ -1,4 +1,4 @@
-package com.code.javabasic3;
+package com.code.lab1bai3;
 
 import java.util.Scanner;
 
@@ -26,11 +26,11 @@ public class ShapeTest {
                 hinh[i] = tg;
 
             } else {
-                System.out.println("Danh sách mảng hình là");
+                System.out.println("----DANH SÁCH MẢNG HÌNH----");
+                System.out.println("");
                 for (Shape x : hinh) {
                     x.printInfo();
                 }
-                break;
             }
 
         }

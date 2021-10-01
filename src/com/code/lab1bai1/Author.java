@@ -1,4 +1,4 @@
-package com.code.javabasic;
+package com.code.lab1bai1;
 
 public class Author {
     private String name;

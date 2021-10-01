@@ -1,4 +1,4 @@
-package com.code.javabasic3;
+package com.code.lab1bai3;
 
 import java.util.Scanner;
 
@@ -27,7 +27,8 @@ public class Circle extends Shape {
     public void printInfo() {
         // TODO Auto-generated method stub
         super.printInfo();
-        System.out.println("Bán kính của " + name + " có bán kính là " + radius);
+        System.out.println("Hình tròn " + name + " có bán kính là " + radius);
+        System.out.println("------------------------------------------------");
     }
 
     @Override

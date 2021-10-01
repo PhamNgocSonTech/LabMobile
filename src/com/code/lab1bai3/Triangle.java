@@ -1,4 +1,4 @@
-package com.code.javabasic3;
+package com.code.lab1bai3;
 
 import java.util.Scanner;
 
@@ -34,9 +34,11 @@ public class Triangle extends Shape {
     public void printInfo() {
         // TODO Auto-generated method stub
         super.printInfo();
-        System.out.println(name + " có cạnh thứ 1 là: " + side1);
-        System.out.println(name + " có cạnh thứ 2 là: " + side2);
-        System.out.println(name + " có cạnh thứ 3 là: " + side3);
+        System.out.println("Hình tam giác " + name + " có cạnh thứ 1 là: " + side1);
+        System.out.println("Hình tam giác " + name + " có cạnh thứ 2 là: " + side2);
+        System.out.println("Hình tam giác " + name + " có cạnh thứ 3 là: " + side3);
+        System.out.println("------------------------------------------------");
+
 
     }
 
